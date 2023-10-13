@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test2.Objects", "Objects/Test2.Objects.csproj", "523d2685-75e8-42de-b47e-9dfa910edb88"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test2.Tests", "Tests/Test2.Tests.csproj", "b14fb873-2794-426f-86a6-4ba133bf2f5e"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test2.IntegrationTests", "IntegrationTests/Test2.IntegrationTests.csproj", "453be84d-606c-406e-bcf9-ea950d4ea9f4"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		523d2685-75e8-42de-b47e-9dfa910edb88.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		523d2685-75e8-42de-b47e-9dfa910edb88.Debug|Any CPU.Build.0 = Debug|Any CPU
+		523d2685-75e8-42de-b47e-9dfa910edb88.Release|Any CPU.ActiveCfg = Release|Any CPU
+		523d2685-75e8-42de-b47e-9dfa910edb88.Release|Any CPU.Build.0 = Release|Any CPU
+		b14fb873-2794-426f-86a6-4ba133bf2f5e.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		b14fb873-2794-426f-86a6-4ba133bf2f5e.Debug|Any CPU.Build.0 = Debug|Any CPU
+		b14fb873-2794-426f-86a6-4ba133bf2f5e.Release|Any CPU.ActiveCfg = Release|Any CPU
+		b14fb873-2794-426f-86a6-4ba133bf2f5e.Release|Any CPU.Build.0 = Release|Any CPU
+		453be84d-606c-406e-bcf9-ea950d4ea9f4.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		453be84d-606c-406e-bcf9-ea950d4ea9f4.Debug|Any CPU.Build.0 = Debug|Any CPU
+		453be84d-606c-406e-bcf9-ea950d4ea9f4.Release|Any CPU.ActiveCfg = Release|Any CPU
+		453be84d-606c-406e-bcf9-ea950d4ea9f4.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

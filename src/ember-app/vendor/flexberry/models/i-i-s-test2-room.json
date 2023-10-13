@@ -1,0 +1,33 @@
+﻿{
+  "name": "IISTest2Room",
+  "modelName": "i-i-s-test2-room",
+  "className": "Room",
+  "nameSpace": "IIS.Test2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "id",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "здание",
+      "relatedTo": "i-i-s-test2-здание",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

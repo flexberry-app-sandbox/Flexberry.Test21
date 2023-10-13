@@ -1,0 +1,25 @@
+﻿{
+  "name": "IISTest2Здание",
+  "modelName": "i-i-s-test2-здание",
+  "className": "Здание",
+  "nameSpace": "IIS.Test2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "адрес",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
