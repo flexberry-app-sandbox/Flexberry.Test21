@@ -16,7 +16,7 @@
         "Build": false,
         "GitClone": false,
         "GitPush": false,
-        "GhPagesPush": false,
+        "GhPagesPush": true,
         "EmberMetadata": false
       },
       "ApacheCordova": {
@@ -25,8 +25,8 @@
       }
     },
     "Backend": {
-      "AspNet": false,
-      "AspNetCore": true,
+      "AspNet": true,
+      "AspNetCore": false,
       "Java": false
     },
     "Docker": {
@@ -46,7 +46,7 @@
       },
       "PostgreSql": {
         "DiffSql": false,
-        "FullSql": false,
+        "FullSql": true,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
@@ -54,12 +54,12 @@
       },
       "ClickHouse": {
         "DiffSql": false,
-        "FullSql": false,
+        "FullSql": true,
         "ConnectionString": null
       },
       "Oracle": {
         "DiffSql": false,
-        "FullSql": false,
+        "FullSql": true,
         "ConnectionString": null
       },
       "Access": {
