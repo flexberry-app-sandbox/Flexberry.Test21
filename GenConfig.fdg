@@ -30,7 +30,7 @@
       "Java": false
     },
     "Docker": {
-      "Dockerfile": false,
+      "Dockerfile": true,
       "DockerfileAutobuild": false,
       "DockerBuildShellScript": false,
       "DockerSwarm": false
