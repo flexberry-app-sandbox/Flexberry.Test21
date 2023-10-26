@@ -15,8 +15,8 @@
         "EmberAddon": false,
         "Build": false,
         "GitClone": false,
-        "GitPush": false,
-        "GhPagesPush": true,
+        "GitPush": true,
+        "GhPagesPush": false,
         "EmberMetadata": false
       },
       "ApacheCordova": {
