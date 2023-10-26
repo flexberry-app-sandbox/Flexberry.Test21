@@ -28,6 +28,15 @@ namespace IIS.Test2
     // *** End programmer edit section *** (Room CustomAttributes)
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
+    [View("RoomE", new string[] {
+            "Id as \'Id\'",
+            "Здание as \'Здание\'",
+            "Здание.Адрес as \'Адрес\'"}, Hidden=new string[] {
+            "Здание.Адрес"})]
+    [MasterViewDefineAttribute("RoomE", "Здание", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Адрес")]
+    [View("RoomL", new string[] {
+            "Id as \'Id\'",
+            "Здание.Адрес as \'Адрес\'"})]
     public class Room : ICSSoft.STORMNET.DataObject
     {
         
@@ -102,6 +111,35 @@ namespace IIS.Test2
                 // *** Start programmer edit section *** (Room.Здание Set end)
 
                 // *** End programmer edit section *** (Room.Здание Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Class views container.
+        /// </summary>
+        public class Views
+        {
+            
+            /// <summary>
+            /// "RoomE" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View RoomE
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("RoomE", typeof(IIS.Test2.Room));
+                }
+            }
+            
+            /// <summary>
+            /// "RoomL" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View RoomL
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("RoomL", typeof(IIS.Test2.Room));
+                }
             }
         }
     }

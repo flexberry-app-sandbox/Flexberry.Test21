@@ -13,7 +13,25 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.index.caption'),
           title: i18n.t('forms.application.sitemap.index.title'),
           children: null
-        }, 
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.test2.caption'),
+          title: i18n.t('forms.application.sitemap.test2.title'),
+          children: [{
+            link: 'i-i-s-test2-здание-l',
+            caption: i18n.t('forms.application.sitemap.test2.i-i-s-test2-здание-l.caption'),
+            title: i18n.t('forms.application.sitemap.test2.i-i-s-test2-здание-l.title'),
+            icon: 'paperclip',
+            children: null
+          }, {
+            link: 'i-i-s-test2-room-l',
+            caption: i18n.t('forms.application.sitemap.test2.i-i-s-test2-room-l.caption'),
+            title: i18n.t('forms.application.sitemap.test2.i-i-s-test2-room-l.title'),
+            icon: 'chart line',
+            children: null
+          }]
+        }
       ]
     };
   }),

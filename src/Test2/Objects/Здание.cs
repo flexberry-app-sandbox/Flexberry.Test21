@@ -28,6 +28,10 @@ namespace IIS.Test2
     // *** End programmer edit section *** (Здание CustomAttributes)
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
+    [View("ЗданиеE", new string[] {
+            "Адрес as \'Адрес\'"})]
+    [View("ЗданиеL", new string[] {
+            "Адрес as \'Адрес\'"})]
     public class Здание : ICSSoft.STORMNET.DataObject
     {
         
@@ -67,6 +71,35 @@ namespace IIS.Test2
                 // *** Start programmer edit section *** (Здание.Адрес Set end)
 
                 // *** End programmer edit section *** (Здание.Адрес Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Class views container.
+        /// </summary>
+        public class Views
+        {
+            
+            /// <summary>
+            /// "ЗданиеE" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View ЗданиеE
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("ЗданиеE", typeof(IIS.Test2.Здание));
+                }
+            }
+            
+            /// <summary>
+            /// "ЗданиеL" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View ЗданиеL
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("ЗданиеL", typeof(IIS.Test2.Здание));
+                }
             }
         }
     }

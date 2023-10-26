@@ -1,6 +1,29 @@
 ﻿{
-  "applicationCaption": null,
-  "applicationTitle": null,
-  "items": [],
+  "applicationCaption": "Test2",
+  "applicationTitle": "Test2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "test2",
+      "caption": "Test2",
+      "title": "Test2",
+      "children": [
+        {
+          "link": "i-i-s-test2-здание-l",
+          "menuName": null,
+          "caption": "Здание",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test2-room-l",
+          "menuName": null,
+          "caption": "Room",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
   "mobile": true
 }

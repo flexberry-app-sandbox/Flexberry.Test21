@@ -1,6 +1,10 @@
 import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/ru/translations';
 
+import IISTest2RoomLForm from './forms/i-i-s-test2-room-l';
+import IISTest2ЗданиеLForm from './forms/i-i-s-test2-здание-l';
+import IISTest2RoomEForm from './forms/i-i-s-test2-room-e';
+import IISTest2ЗданиеEForm from './forms/i-i-s-test2-здание-e';
 import IISTest2RoomModel from './models/i-i-s-test2-room';
 import IISTest2ЗданиеModel from './models/i-i-s-test2-здание';
 
@@ -13,7 +17,7 @@ $.extend(true, translations, {
     'i-i-s-test2-здание': IISTest2ЗданиеModel
   },
 
-  'application-name': '',
+  'application-name': 'Test2',
 
   forms: {
     loading: {
@@ -52,7 +56,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': '',
+        'application-name': 'Test2',
         'application-version': {
           caption: 'Версия аддона {{version}}',
           title: 'Это версия аддона ember-flexberry, которая сейчас используется в этом тестовом приложении ' +
@@ -63,8 +67,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: '',
-          title: ''
+          caption: 'Test2',
+          title: 'Test2'
         },
         'application-version': {
           caption: 'Версия аддона {{version}}',
@@ -76,7 +80,18 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
-
+        test2: {
+          caption: 'Test2',
+          title: 'Test2',
+          'i-i-s-test2-здание-l': {
+            caption: 'Здание',
+            title: ''
+          },
+          'i-i-s-test2-room-l': {
+            caption: 'Room',
+            title: ''
+          }
+        }
       }
     },
 
@@ -88,7 +103,10 @@ $.extend(true, translations, {
       'delete-success-message': 'Объект удален',
       'delete-error-message-caption': 'Ошибка удаления'
     },
-
+    'i-i-s-test2-room-l': IISTest2RoomLForm,
+    'i-i-s-test2-здание-l': IISTest2ЗданиеLForm,
+    'i-i-s-test2-room-e': IISTest2RoomEForm,
+    'i-i-s-test2-здание-e': IISTest2ЗданиеEForm
   },
 
 });
