@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-test2-здание-l',
             caption: i18n.t('forms.application.sitemap.test2.i-i-s-test2-здание-l.caption'),
             title: i18n.t('forms.application.sitemap.test2.i-i-s-test2-здание-l.title'),
-            icon: 'folder open',
+            icon: 'table',
             children: null
           }, {
             link: 'i-i-s-test2-room-l',
             caption: i18n.t('forms.application.sitemap.test2.i-i-s-test2-room-l.caption'),
             title: i18n.t('forms.application.sitemap.test2.i-i-s-test2-room-l.title'),
-            icon: 'archive',
+            icon: 'paperclip',
             children: null
           }]
         }
