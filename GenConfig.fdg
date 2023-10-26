@@ -30,7 +30,7 @@
       "Java": false
     },
     "Docker": {
-      "Dockerfile": true,
+      "Dockerfile": false,
       "DockerfileAutobuild": false,
       "DockerBuildShellScript": false,
       "DockerSwarm": false
@@ -46,7 +46,7 @@
       },
       "PostgreSql": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
@@ -54,12 +54,12 @@
       },
       "ClickHouse": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "ConnectionString": null
       },
       "Oracle": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "ConnectionString": null
       },
       "Access": {
